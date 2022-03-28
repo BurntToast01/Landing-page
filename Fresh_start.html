@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href= "{{ url_for('static',filename='main.css') }}" type="text/css">
+
+</head>
+
+<body>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Back to top</button>
+<section id="top">
+<h1 >
+    <p >A fresh start is sometimes a wild ride, so hold on<br></p>
+
+    <p><img src="static/New_start.gif" alt="home_cat"></p>
+    <nav class="nav_Fresh_start" >
+        <ul>
+        <li><a href=index>Index</a></li>
+        <li><a href=home>Home</a></li>
+
+    </ul>
+    </nav>
+    <p>&nbsp;&nbsp;Content</p>
+    <nav class="content_links">
+        <ul>
+            <ul><a href="#food">Food</a></ul>
+            <ul><a href="#linking">Linking sections</a></ul>
+        </ul>
+
+    </nav>
+
+</h1>
+</section>
+<section>
+    <h2>
+    <p style="text-align:center; font-size:medium">
+        &nbsp;The first couple of <em>HTML</em> web pages didn't take long to put together.<br>
+        &nbsp;What is taking much longer is making them fancy and easy on the eyes.
+    </p>
+</h2>
+</section>
+
+<h3 id="linking">
+    <hr>
+    Linking to sections:<br>
+    <img src="static/llinking.jpg">
+
+    <p style="font-size:18px">
+        sometimes we have a need to link certain sections of a website.<br>
+        Think they call it page sections or contents.<br>
+       Give some of the links in the content section a try. Those links should send you
+to the exact place of the start of each topic. If, by whatever chance, they're not doing their jobs, please, feel
+free to contact your local admin and proceed to complain.
+        <hr>
+
+
+
+    </p>
+</h3>
+
+    <h4 id="food">
+Food:
+    <br>
+    <img src="static/hungry_food.jpg">
+    <p style="font-size:18px; text-align:left">
+        You have to understand just how much I enjoy food. Food is a link to the past, a link to when things were simple,
+when things were much slower, and we didn't need to worry about too much. The very smell of certain foods has the power
+to teleport me back into childhood. My mother in the kitchen had just cracked a few eggs spiced with onions and
+a bit of garlic. The fried plantains were just being laid down on the skillet, the sound of the blender going off
+finishing off the refried beans. And, young myself, with eye crust in my eyes and a rumbling stomach ready to eat
+and start the day just right. Thanks to food, I have my own personal time machine, and I hope to never lose it either.
+    </p>
+
+        <hr>
+</h4>
+<script>
+
+var mybutton = document.getElementById("myBtn");
+
+
+window.onscroll = function() {
+scrollFunction()
+};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+
+
+&lt;&lt;&lt; &copy; Marcos Umana Santos &gt;&gt;&gt;
+</body>
+</html>
