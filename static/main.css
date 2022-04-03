@@ -41,26 +41,30 @@ html{
     color: whitesmoke;
     font-size: 32px;
     padding: 10px;
-    margin-left:-60px
+
 
 }
 
 .nav_Fresh_start li{
     display: inline;
-    margin-left:30px
+
 
 }
-.content_links ul{
-margin-left:-60px;
+a{
+margin-left:30px;
+color:blue;
+}
+
+a:visited{
 color:lightgray;
 }
 
-.content_links ul:visted{
-color:lightgray;
-}
-
-.content_links ul:hover, content_links ul:active{
+a:hover, a:active{
 color:#eee}
+
+.content_links ul{
+color:red !important
+margin-left:-60px;}
 
 
 #myBtn {
