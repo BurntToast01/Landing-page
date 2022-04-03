@@ -40,7 +40,7 @@ html{
 .nav_Fresh_start{
     color: whitesmoke;
     font-size: 32px;
-    padding: 10;
+    padding: 10px;
     margin-left:-60px
 
 }
@@ -71,4 +71,11 @@ margin-left:-60px;}
 
 #myBtn:hover {
   background-color: #FF0000;
+}
+
+.about_me{
+
+     text-align: center;
+     background-color: #000000;
+     color: whitesmoke;
 }
