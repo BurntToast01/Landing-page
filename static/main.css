@@ -50,8 +50,18 @@ html{
     margin-left:30px
 
 }
-.content_links{
-margin-left:-60px;}
+.content_links ul{
+margin-left:-60px;
+color:lightgray;
+}
+
+.content_links ul:visted{
+color:lightgray;
+}
+
+.content_links ul:hover, content_links ul:active{
+color:#eee}
+
 
 #myBtn {
   display: none;
