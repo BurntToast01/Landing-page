@@ -13,7 +13,7 @@
 html{
      font-size: 22px}
 
-     body{
+body{
      text-align: center;
      background-color: #000000;
      color: whitesmoke;
@@ -25,31 +25,22 @@ html{
     padding: 10;
     float: center
     font-size: 24px;
-
-
-
 }
 
 .nav li{
     display: inline;
-
-
-
 }
 
 .nav_Fresh_start{
     color: whitesmoke;
     font-size: 32px;
     padding: 10px;
-
-
 }
 
 .nav_Fresh_start li{
     display: inline;
-
-
 }
+
 a{
 margin-left:30px;
 color:blue;
@@ -63,7 +54,7 @@ a:hover, a:active{
 color:#eee}
 
 .content_links ul{
-color:red !important
+color:red;
 margin-left:-60px;}
 
 
@@ -88,7 +79,6 @@ margin-left:-60px;}
 }
 
 .about_me{
-
      text-align: center;
      background-color: #000000;
      color: whitesmoke;
