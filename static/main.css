@@ -1,5 +1,5 @@
 .main_body{
-    font-seize:10px;
+    font-seize:18px;
     color: whitesmoke;
     text-align: left;
 }
@@ -11,12 +11,13 @@
 }
 
 html{
-     font-size: 18px}
-
+    font-size:18px;
+     }
 body{
      text-align: center;
      background-color: #000000;
      color: whitesmoke;
+
 }
 
 .nav{
@@ -24,7 +25,7 @@ body{
     text-align: center;
     padding: 10;
     float: center
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .nav li{
@@ -43,7 +44,7 @@ body{
 
 a{
 margin-left:30px;
-color:blue;
+color:whitesmoke;
 }
 
 a:visited{
