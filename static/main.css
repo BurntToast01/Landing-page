@@ -86,7 +86,7 @@ margin-left:-60px;}
 
 .grid-pictures{
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto auto auto;
   background-color: #000000;
   padding: 60px;
   object-fit: contain;
@@ -94,7 +94,8 @@ margin-left:-60px;}
   width: 70%;
   height: auto;
   align-items: center;
-  justify-items: center;
+  justify-items: end;
+  margin:auto;
 
   }
 
@@ -111,6 +112,7 @@ margin-left:-60px;}
   height: auto;
   align-items: center;
   justify-items: center;
+
 
 
   }
