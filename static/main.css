@@ -58,8 +58,8 @@ color:#eee}
 color:red;
 margin-left:-60px;}
 
-.ordered-list li{
-text-align:center;}
+.ordered-list{
+list-style-position: inside;}
 
 
 #myBtn {
