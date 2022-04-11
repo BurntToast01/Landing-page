@@ -12,7 +12,7 @@
 <button onclick="topFunction()" id="myBtn" title="Go to top">Back to top</button>
 <section id="top">
 <h1 >
-    <p  >A fresh start is sometimes a wild ride, so hold on<br></p>
+    <p  style="background-color: gray; margin:-25px">A fresh start is sometimes a wild ride, so hold on<br></p>
 
     <p><img src="static/New_start.gif" alt="home_cat"></p>
    <div class="content_links">
@@ -21,8 +21,9 @@
         <li><a href=home>Home</a></li>
 
     </ul>
+       <div class="navbar">
     </nav>
-    <p style="margin-left:-10px;">Content</p>
+    <p >Content</p>
     <nav>
         <ul>
             <ul><a href="#linking">Linking sections</a></ul>
@@ -31,21 +32,25 @@
         </ul>
 
     </nav>
+       </div>
         </div>
 
 </h1>
 </section>
 
+
+<section>
     <h2 style="font-size:18px;">
     <p style="text-align:center;">
         &nbsp;The first couple of <em>HTML</em> web pages didn't take long to put together.<br>
         &nbsp;What is taking much longer is making them fancy and easy on the eyes.
     </p>
 </h2>
+</section>
 
 
-<h3 id="linking">
-    <hr>
+<div id="linking">
+    <h3 >
     Linking to sections:<br>
     <img src="static/llinking.jpg">
 
@@ -55,18 +60,17 @@
        Give some of the links in the content section a try. Those links should send you
 to the exact place of the start of each topic. If, by whatever chance, they're not doing their jobs, please, feel
 free to contact your local admin and proceed to complain.
-        <hr>
-
-
-
     </p>
-</h3>
+    </h3>
+</div>
+
 
     <h4 id="Ordered list and unordered list">
 Lists:
     <br>
     <img src="static/Patricks_list.jpg">
-    <p>
+    <div class="lists">
+    <p><br>
         You might find a need to show off a list. Why? Perhaps you want list the reasons for why you hate green eggs and ham.<br>
         The list could look like this:
         <li>green egs just don't look right</li>
@@ -92,24 +96,23 @@ Lists:
         <ul>It's 3AM, get those green eggs and ham away from me!</ul>
     </p>
 
-        <hr>
+       </div>
 </h4>
-<h5 id="Fancier links">Fancy links!<br>
+
+
+
+<h5 id="Fancier links" style="font-size:18px;">Fancy links!<br>
     Let me show off some fancier way of linking thing. Click on any of the images, they'll redirect to another site.
     <div class="grid-pictures" align="center">
         <div class="grid-item"><a href="https://www.atablefullofjoy.com/easy-breakfast-egg-sandwich-recipe/" target="_blank">Breakfast egg sandwich<br><img src="static/egg-sandwich.jpg"></a></div>
         <div class="grid-item"><a href="https://aseasyasapplepie.com/simple-blueberry-overnight-oats/" target="_blank">Blueberry overnight oats<br><img src="static/simple-blueberry-overnight-oats.jpg" ></a></div>
         <div class="grid-item"><a href="https://thishealthytable.com/blog/milk-ramen/" target="_blank">Creamy ramen<br><img src="static/ramen.jpeg" ></a></div>
         <div class="grid-item"><a href="https://www.dinneratthezoo.com/burnt-ends-recipe/" target="_blank">Burnt ends BBQ<br><img src="static/bbq.jpg" ></a></div>
-        <div class="grid-item"><a href="https://www.wellplated.com/homemade-tater-tots/" target="_blank">Home made tator tots<img src="static/Tatter-tots.jpg" ></a></div>
-        <div class="grid-item"><a href="https://www.yummly.com/recipe/Chili-Cheese-Tater-Tots-576219" target="_blank">Chili cheese tots<img src="static/chili-cheese-tots.jpg" ></a></div>
-
-
-
-
-
+        <div class="grid-item"><a href="https://www.wellplated.com/homemade-tater-tots/" target="_blank">Home made tator tots<br><img src="static/Tatter-tots.jpg" ></a></div>
+        <div class="grid-item"><a href="https://www.yummly.com/recipe/Chili-Cheese-Tater-Tots-576219" target="_blank">Chili cheese tots<br><img src="static/chili-cheese-tots.jpg" ></a></div>
     </div>
 </h5>
+
 
 <script>
 
@@ -137,6 +140,6 @@ function topFunction() {
 
 
 
-&lt;&lt;&lt; &copy;<a href="about">Marcos Umana Santos</a>  &gt;&gt;&gt;
+&lt;&lt;&lt;&copy;<a href="about">Marcos Umana Santos</a> &gt;&gt;&gt;
 </body>
 </html>

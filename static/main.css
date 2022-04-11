@@ -15,17 +15,12 @@ html{
      }
 body{
      text-align: center;
-     background-color: #000000;
-     color: whitesmoke;
+     background-color: #ffc24f;
+     color: black;
 
 }
 
-.nav{
- color: white;
-    text-align: center;
-    padding: 10;
-    float: center
-    font-size: 18px;
+
 }
 
 .nav li{
@@ -44,19 +39,23 @@ body{
 
 a{
 margin-left:30px;
-color:whitesmoke;
+color:black;
 }
 
 a:visited{
-color:lightgray;
+color:black;
 }
 
 a:hover, a:active{
-color:#eee}
+color:blue;}
 
 .content_links ul{
 color:red;
-margin-left:-60px;}
+margin-left:-20px;
+}
+
+
+
 
 .ordered-list{
 list-style-position: inside;}
@@ -91,7 +90,7 @@ list-style-position: inside;}
 .grid-pictures{
   display: grid;
   grid-template-columns: auto auto auto;
-  background-color: #000000;
+  background-color:whitesmoke;
   padding: 60px;
   object-fit: contain;
   align:center;
@@ -100,13 +99,12 @@ list-style-position: inside;}
   align-items: center;
   justify-items: end;
   margin:auto;
-
   }
 
 .grid-item img{
  background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 10px;
+  padding: 5px;
   font-size: 30px;
   text-align: center;
   position;relative;
@@ -116,7 +114,46 @@ list-style-position: inside;}
   height: auto;
   align-items: center;
   justify-items: center;
-
-
-
   }
+    .grid-item:hover{
+    transform: scale(1.05);
+    transition: transform 150ms;}
+
+#linking{
+width:850px;
+position:center;
+background-color:whitesmoke;
+border: 1px solid whitesmoke;
+bborder-style: none solid solid solid;
+margin: auto;
+box-shadow: 10px 10px 15px #656565, -10px 0px 15px #656565;
+border-radius:3%;
+}
+
+.navbar{
+border: 1px solid whitesmoke;
+ width: 245px;
+ align:center;
+ justify-item:center;
+ padding:20px;
+ margin:auto;
+ border-radius:3%;
+}
+.lists{
+background-color:whitesmoke;
+width:850px;
+position:center;
+border: 1px solid whitesmoke;
+border-style: none solid solid solid;
+margin: auto;
+box-shadow: 10px 10px 15px #656565, -10px 10px 15px #656565;
+border-radius:3%;
+ }
+
+.grid-pictures{
+border: 1px solid whitesmoke;
+margin: auto;
+box-shadow: 10px 10px 15px #656565, -10px 10px 15px #656565;
+border-radius:1.5%;
+}
+
